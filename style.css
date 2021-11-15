@@ -1,0 +1,49 @@
+body{
+    height: 90vh;
+    background: #555555;
+    font-size: 15px;
+    display: flex;
+
+}
+
+.container{
+    width: 450px;
+    height: auto;
+    
+    border : solid 5px black;
+    margin: auto;
+    padding : 30px;
+    box-sizing: border-box;
+
+    background-color : white;
+    display : flex;
+    flex-direction: column;
+
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.container .title{
+    width: auto;
+    height: auto;
+}
+
+.container .body{
+    display: flex;
+    flex-direction: row;
+
+    width: auto;
+    height: auto;
+    margin: 5px;
+}
+
+.container .body .grid{
+    margin: auto;
+    padding: 10px;
+}
+
+
+
+
+
